@@ -35,13 +35,10 @@ gameLoop();
 addEventListener("keydown", (event) => {
     const key = event.key.toLowerCase();
 
-    if (key === "a") {
-        keys.left = true;
-    }
+    if (key === "a") keys.left = true;
+    
 
-    if (key === "d") {
-        keys.right = true;
-    }
+    if (key === "d") keys.right = true;
 
 
 });
@@ -49,11 +46,8 @@ addEventListener("keydown", (event) => {
 addEventListener("keyup", (event) => {
     const key = event.key.toLowerCase();
 
-    if (key === "a") {
-        keys.left = false;
-    }
+    if (key === "a") keys.left = false;
 
-    if (key === "d") {
-        keys.right = false;
-    }
+    if (key === "d") keys.right = false;
+    
 });

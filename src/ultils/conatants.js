@@ -1,0 +1,1 @@
+export const PAHT_SPACESHIP_IMAGE = "src\assets\images\spaceship.png"
